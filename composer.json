@@ -1,0 +1,21 @@
+{
+    "name": "maruzen-p/dir-cleaner",
+    "description": "Clean up files and directories after a specified time. This library is expected to be used with cron.",
+    "type": "library",
+    "require": {
+        "symfony/filesystem": "^7.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MaruzenP\\DirCleaner\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hideki Morihara",
+            "email": "morihara@ayanas.co"
+        }
+    ],
+    "minimum-stability": "stable"
+}
